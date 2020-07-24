@@ -1,3 +1,2 @@
-# PIBIC - LASID
 
 
