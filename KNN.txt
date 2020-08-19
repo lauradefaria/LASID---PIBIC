@@ -1,0 +1,23 @@
+Import numpy as np
+Import pandas as pd
+Import matplotlib.pyplot as pl
+Import seaborn as sb
+
+#Contém os dados dos indivíduos a serem tratados
+Df = pd.read_csv(‘cliente.csv’)                            
+Df.colums          
+             
+#Separa os dados para a classificação                           
+X = np.array(df.drop(‘target’, 1)) 
+
+#Seleciona as classes para classificação        
+Y = np.array(df.target)                                   
+
+#Importa biblioteca
+From sklearn.neighbors import KNeighborsClassifier 
+   
+Knn = KNeighborsClassifier(n_neighbors=3)         
+Knn.fit(X,y)         
+
+#Passa as características para treinamento                                        
+Knn.predict(new_object)
